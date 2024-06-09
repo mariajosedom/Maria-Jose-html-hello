@@ -1,0 +1,78 @@
+body{
+    background: rgba(128, 128, 128, 0.348);
+}
+
+.container {
+    padding:0;
+    position: relative;
+    display: flex;
+}
+
+.title {
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    
+}
+.wrapper {
+    width: 34%;
+    margin: auto;
+    height: 2000px;
+    display: flex;
+    display: block;
+
+}
+
+.post{
+    background-color: white;
+    width: 500px;
+    height: 450px;
+    margin: 10px;
+    position: relative;
+    display: block;
+}
+
+
+
+.namepost {
+    color: black;
+    text-align: left;
+    position: absolute;
+    width: 90%;
+    margin: 10px;
+
+}
+
+.date{
+    color: rgba(128, 128, 128, 0.547);
+    text-align: right;
+    position: absolute;
+    width: 98%;
+    margin-top: 10px;
+
+}
+
+.post img{
+    object-fit:cover;
+    width: 100%;
+    bottom: 200px;
+    margin-top: 10%;
+    
+}
+
+p{
+    font-family: Inter;
+    font-size: small;
+    margin-top: 20%;
+    position: absolute;
+    bottom: 10px;
+    padding-left: 12px;
+
+    
+}
+
+strong{
+    color:rgba(18, 18, 217, 0.841);
+    text-decoration: underline;
+}
